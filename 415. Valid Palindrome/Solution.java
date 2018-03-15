@@ -18,7 +18,7 @@ class Solution {
 				end--;
 			}
 			
-			if (Character.toLowerCase(front) != Character.toLowerCase(end)) {
+			if (Character.toLowerCase(s.charAt(front)) != Character.toLowerCase(s.charAt(end))) {
 				break;
 			} else {
 				front++;
